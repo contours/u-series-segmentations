@@ -12,7 +12,7 @@ All human-created segmentations. Each segmentation is sentence-based, i.e. the s
 
 [**`segmentations-by-speaker-turns.json`**](segmentations-by-speaker-turns.json)
 
-All human-created segmentations, each segmentation is *speaker-turn-based*, i.e. the segment masses are number of *speaker turns* per segment. This was generated using the script [`project.py`](/contours/evaluation/project.py) and the data files [`segmentations.json`](#segmentations) (see above) and [`speakers.json`](#speakers) (see below).
+All human-created segmentations, each segmentation is *speaker-turn-based*, i.e. the segment masses are number of *speaker turns* per segment. This was generated using the script [`project.py`](../../project.py) and the data files [`segmentations.json`](#segmentations) (see above) and [`speakers.json`](#speakers) (see below).
 
     project.py segmentations.json speakers.json 
 
