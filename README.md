@@ -1,4 +1,28 @@
-# Interview segmentation data
+# Oral history interview segmentation data
+
+This repository contains topic segmentations of transcripts of the following interviews from the [Oral Histories of the American South](http://docsouth.unc.edu/sohp/) project:
+
+* [U-0005](http://docsouth.unc.edu/sohp/U-0005/U-0005.html)
+* [U-0007](http://docsouth.unc.edu/sohp/U-0007/U-0007.html)
+* [U-0008](http://docsouth.unc.edu/sohp/U-0008/U-0008.html)
+* [U-0011](http://docsouth.unc.edu/sohp/U-0011/U-0011.html)
+* [U-0012](http://docsouth.unc.edu/sohp/U-0012/U-0012.html)
+* [U-0014](http://docsouth.unc.edu/sohp/U-0014/U-0014.html)
+* [U-0017](http://docsouth.unc.edu/sohp/U-0017/U-0017.html)
+* [U-0019](http://docsouth.unc.edu/sohp/U-0019/U-0019.html)
+* [U-0020](http://docsouth.unc.edu/sohp/U-0020/U-0020.html)
+* [U-0023](http://docsouth.unc.edu/sohp/U-0023/U-0023.html)
+* [U-0098](http://docsouth.unc.edu/sohp/U-0098/U-0098.html)
+* [U-0178](http://docsouth.unc.edu/sohp/U-0178/U-0178.html)
+* [U-0180](http://docsouth.unc.edu/sohp/U-0180/U-0180.html)
+* [U-0181](http://docsouth.unc.edu/sohp/U-0181/U-0181.html)
+* [U-0183](http://docsouth.unc.edu/sohp/U-0183/U-0183.html)
+* [U-0184](http://docsouth.unc.edu/sohp/U-0184/U-0184.html)
+* [U-0185](http://docsouth.unc.edu/sohp/U-0185/U-0185.html)
+* [U-0186](http://docsouth.unc.edu/sohp/U-0186/U-0186.html)
+* [U-0193](http://docsouth.unc.edu/sohp/U-0193/U-0193.html)
+
+The sentence-tokenized text of the transcripts can be found in the [`interview-sentences`](interview-sentences) directory.
 
 All the following files contain linear segmentations serialized as [JSON in the Segeval format](http://segeval.readthedocs.org/en/latest/user/quickstart/#loading-data).
 
