@@ -12,7 +12,7 @@ All human-created segmentations. Each segmentation is sentence-based, i.e. the s
 
 [**`segmentations-by-speaker-turns.json`**](segmentations-by-speaker-turns.json)
 
-All human-created segmentations, each segmentation is *speaker-turn-based*, i.e. the segment masses are number of *speaker turns* per segment. This was generated using the script [`project.py`](../../project.py) and the data files [`segmentations.json`](#segmentations) (see above) and [`speakers.json`](#speakers) (see below).
+All human-created segmentations, each segmentation is *speaker-turn-based*, i.e. the segment masses are number of *speaker turns* per segment. This was generated using the script [`project.py`](https://github.com/contours/evaluation/project.py) and the data files [`segmentations.json`](#segmentations) (see above) and [`speakers.json`](#speakers) (see below).
 
     project.py segmentations.json speakers.json 
 
@@ -40,7 +40,7 @@ These are simply subdivisions of [`segmentations.json`](#segmentations) into fil
 [**`segmentations-null.json`**](segmentations-null.json)<br>
 [**`segmentations-null-by-speaker-turns.json`**](segmentations-null-by-speaker-turns.json)
 
-A null (no boundaries) segmentation generated using [`nullseg.py`](../nullseg.py) and [`segmentations.json`](#segmentations), and it's speaker-turn-based version.
+A null (no boundaries) segmentation generated using [`nullseg.py`](https://github.com/contours/evaluation/nullseg.py) and [`segmentations.json`](#segmentations), and it's speaker-turn-based version.
 
     nullseg.py segmentations.json
 
@@ -49,7 +49,7 @@ A null (no boundaries) segmentation generated using [`nullseg.py`](../nullseg.py
 [**`segmentations-random.json`**](segmentations-random.json)<br>
 [**`segmentations-random-by-speaker-turns.json`**](segmentations-random-by-speaker-turns.json)
 
-A random segmentation generated using [`randomseg.py`](../randomseg.py) and [`segmentations.json`](#segmentations), and it's speaker-turn-based version.
+A random segmentation generated using [`randomseg.py`](https://github.com/contours/evaluation/randomseg.py) and [`segmentations.json`](#segmentations), and it's speaker-turn-based version.
 
     randomseg.py segmentations.json
 
