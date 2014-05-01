@@ -1,5 +1,3 @@
-# Oral history interview segmentation data
-
 This repository contains topic segmentations of transcripts of the following interviews from the [Oral Histories of the American South](http://docsouth.unc.edu/sohp/) project:
 
 * [U-0005](http://docsouth.unc.edu/sohp/U-0005/U-0005.html)
